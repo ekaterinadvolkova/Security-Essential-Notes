@@ -54,6 +54,7 @@ ignored.
 
 
 ### SQL
+* Install/ upsate: ````sudo apt update && sudo apt install mysql*````
 * ````sudo nmap -sV -sC ```` {target_IP} to scan open for the database
 * ````sudo apt-get install mariadb-server````
 * ````mysql -u root -p -h ```` {target_IP}

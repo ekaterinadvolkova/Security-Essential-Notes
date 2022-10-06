@@ -65,6 +65,16 @@ ignored.
 *  ````SELECT * FROM config;````
 *  ````root```` can be used without password
 
+
+### SQL-Injections
+* ````Gobuster````, ````Dirbuster````, ````Dirb```` are tools for brute-forcing (enumerating hidden directories)
+* Install ````go```` environment: ````go install github.com/OJ/gobuster/v3@latest````
+* Install ````gobuster````: 
+    * ````go install github.com/OJ/gobuster/v3@latest````
+    * ````git clone https://github.com/OJ/gobuster.git````
+    * ````go get && go build````
+    * ````go install````
+
 ### MongoDB
 * Install the ````mongodb```` utility on Debian-based Linux distributions: 
   * ````curl -O https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-3.4.7.tgz````
